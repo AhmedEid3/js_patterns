@@ -1,3 +1,5 @@
+// Creational pattern: Singleton
+
 let instance = null;
 
 class ConnectionDB {

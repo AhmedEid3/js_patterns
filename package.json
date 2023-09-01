@@ -2,12 +2,15 @@
   "name": "module_pattern",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.3.82",
+    "@swc/helpers": "^0.5.1",
+    "regenerator-runtime": "^0.14.0"
+  }
 }

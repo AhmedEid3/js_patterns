@@ -1,3 +1,5 @@
+// Structural Design Patterns: Proxy
+
 import { isAllLetters, isValidEmail } from './validation.js';
 
 export const user = {
