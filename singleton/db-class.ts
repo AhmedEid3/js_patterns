@@ -1,6 +1,6 @@
 // Creational pattern: Singleton
 
-let instance = null;
+let instance: ConnectionDB | null = null;
 
 class ConnectionDB {
   constructor() {

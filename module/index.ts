@@ -1,4 +1,4 @@
-import { Add, Divide, Multiply, Subtract } from './math.js';
+import { Add, Divide, Multiply, Subtract } from './math';
 
 console.log(Add(1, 2)); // 3
 console.log(Subtract(1, 2)); // -1

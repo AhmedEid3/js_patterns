@@ -1,4 +1,4 @@
-import connectionDb from './db.js';
+import connectionDb from './db';
 
 console.log('Init DB');
 

@@ -1,16 +1,16 @@
-function Add(x, y) {
+function Add(x: number, y: number) {
   return x + y;
 }
 
-function Subtract(x, y) {
+function Subtract(x: number, y: number) {
   return x - y;
 }
 
-function Multiply(x, y) {
+function Multiply(x: number, y: number) {
   return x * y;
 }
 
-function Divide(x, y) {
+function Divide(x: number, y: number) {
   if (y == 0) {
     throw new Error("Can't divide by zero");
   }
