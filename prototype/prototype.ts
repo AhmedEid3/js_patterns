@@ -1,15 +1,7 @@
 // Creational pattern: Prototype
 
 export default class Prototype {
-  private name: string;
-  private salary: number;
-  private experience: number;
-
-  constructor(name: string, salary: number, experience: number) {
-    this.name = name;
-    this.salary = salary;
-    this.experience = experience;
-  }
+  constructor(private name: string, private salary: number, private experience: number) {}
 
   getSalary() {
     return this.salary;
